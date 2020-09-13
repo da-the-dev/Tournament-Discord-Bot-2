@@ -1,10 +1,3 @@
-<<<<<<< HEAD
 /.vscode
 /node_modules
-=======
-/node_modules
-/.vscode
-.DS_Store
 .env
-test.js
->>>>>>> b0bbc06604872089680519b74b8d84c21972da6d
