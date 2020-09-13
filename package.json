@@ -1,0 +1,43 @@
+{
+<<<<<<< HEAD
+  "name": "touranement-discord-bot-2",
+  "version": "2.0.0",
+  "description": "Tournament Discord Bot, but I try again",
+=======
+  "name": "tournament-discord-bot",
+  "version": "0.0.1",
+  "description": "Discord bot to maitain tournaments",
+>>>>>>> b0bbc06604872089680519b74b8d84c21972da6d
+  "main": "index.js",
+  "scripts": {
+    "test": "!test"
+  },
+<<<<<<< HEAD
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/da-the-dev/Tournament-Discord-Bot-2.git"
+  },
+  "author": "da-the-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/da-the-dev/Tournament-Discord-Bot-2/issues"
+  },
+  "homepage": "https://github.com/da-the-dev/Tournament-Discord-Bot-2#readme",
+  "dependencies": {
+    "discord": "^0.8.2"
+=======
+  "keywords": [
+    "discord",
+    "bot",
+    "tournament",
+    "js",
+    "discord.js"
+  ],
+  "author": "da_the_dev",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0"
+>>>>>>> b0bbc06604872089680519b74b8d84c21972da6d
+  }
+}
