@@ -9,7 +9,7 @@ class ParsedMessage {
         /**@type {string} */
         this.prefix = this.content[0]
         /**@type {Array<string>} */
-        this.args = messsage.slice(1).split(" ")
+        this.args = this.content.slice(1).split(" ")
         /**@type {string} */
         this.command = this.args.shift()
     }
