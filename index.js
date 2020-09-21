@@ -16,12 +16,13 @@ class Tournament {
         /**@type {Array<Discord.GuildMember>} Array of tournament members */
         this.members = new Array
         /**@type {Array<Array<Discord.GuildMember>>} Tournament members in order */
-        this.tournament = new Array
+	this.stages = new Array
     }
     /**@param {Discord.GuildMember} member Add a member to paticipants list */
     addMember(member) {
         this.members.push(member)
     }
+
 }
 /**@type {Tournament} */
 var tournament
@@ -46,6 +47,9 @@ client.on("message", (message) => {
                 msg.msg.reply(client.ws.ping)
                 break
             case "start":
+		msg.msg.reply("Tournament started!")
+		tournament.members.randomize()
+		tournament.stages.push
                 break
             case "postMembers":
                 console.log(tournament.members)
